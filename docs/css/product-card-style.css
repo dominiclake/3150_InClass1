@@ -12,12 +12,7 @@ body{
     flex-direction: row;
 }
 
-.left-image-col{
-    height: 500px;
-    width: 400px;
-}
-
-.left-image-col img{
+.left-img-col{
     height: 500px;
     width: 400px;
 }
