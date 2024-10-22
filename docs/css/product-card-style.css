@@ -31,16 +31,21 @@ body{
 
 .right-info-col h3{
     font-size: 32px;
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .right-info-col h5{
     font-size: 18px;
     color: lightgray;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 .right-info-col p{
     font-size: 14px;
     padding-left: 50px;
+    
 }
 
 .available-colors{
@@ -48,8 +53,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 20px;
+    margin-left: 30px;
+    padding: 20px;
 }
 
 .black-color-container{
@@ -81,10 +86,12 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .price h4{
     font-size: 32px;
+    margin: 0;
 }
 
 .buy-btn{
