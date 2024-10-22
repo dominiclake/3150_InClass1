@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card{
+    margin-top: 120px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-image-col{
+    height: 500px;
+    width: 400px;
+}
+
+.right-info-col{
+    background-color: white;
+    height: 460px;
+    width: 360px;
+    padding: 20px;
+}
+
+.right-info-col h3{
+    font-size: 32px;
+}
+
+.right-info-col h5{
+    font-size: 18px;
+    color: lightgray;
+}
+
+.right-info-col p{
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+.available-colors{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.black-color-container{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.red-color-container{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.white-color-container{
+    background-color: beige;
+    width: 20px;
+    height: 20px;
+    border: 1px solid beige;
+    border-radius: 50%;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price h4{
+    font-size: 32px;
+    font-weight: 2500;
+}
+
+.buy-btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
